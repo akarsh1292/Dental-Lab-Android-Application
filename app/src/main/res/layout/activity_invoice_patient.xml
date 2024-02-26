@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0DA597"
+    tools:context=".InvoicePatientActivity">
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:background="#FDFFFFFF"
+        android:fontFamily="@font/pacifico"
+        android:text="Create Invoice For Patients"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/accinp"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:text="A/c No:"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/accvalueip"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Enter Account No"
+            android:text="" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/nameinp"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:text="NAME:"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/namevalueip"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Enter Name"
+            android:text="" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/phoneinp"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:text="PHONE:"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/phonevalueip"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Enter PHONE NUMBER"
+            android:text="" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/op1"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="Order 1"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/qp1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:hint="Quantity"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/pp1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:hint="Price"
+                android:inputType="number" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/op2"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="Order 2"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/qp2"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:hint="Quantity"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/pp2"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:hint="Price"
+                android:inputType="number" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/op3"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="Order 3"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/qp3"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:hint="Quantity"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/pp3"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:hint="Price"
+                android:inputType="number" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/op4"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="Order 4"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/qp4"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:hint="Quantity"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/pp4"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:hint="Price"
+                android:inputType="number" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/op5"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="Order 5"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/qp5"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:hint="Quantity"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/pp5"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:hint="Price"
+                android:inputType="number" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/addinvoicepat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Detail"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="140dp"
+        android:layout_weight="1"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#04423C"/>
+    <Button
+        android:id="@+id/viewinvoicepat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Detail"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="140dp"
+        android:layout_weight="1"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#04423C"/>
+    <Button
+        android:id="@+id/deleteinvoicepat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Detail"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="140dp"
+        android:layout_weight="1"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#04423C"/>
+    <Button
+        android:id="@+id/backinvoicepat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="160dp"
+        android:layout_weight="1"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#04423C"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textColor="#000000"
+        android:text="Note:-- Please enter Name and Phone Number to delete the particular detail."/>
+
+</LinearLayout>

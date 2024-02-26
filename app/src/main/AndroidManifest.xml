@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NewDentalLab"
+        tools:targetApi="31">
+        <activity
+            android:name=".DoctorInvoiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PatientInvoiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PatViewInvoiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DocViewInvoiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InvoicePatientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InvoiceDoctorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InvoiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UnpaidBalanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PaidBalanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BalanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewPatientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PatientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ClientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
